@@ -1,4 +1,4 @@
-// Logout.js
+//Jacquys Barbosa da SIlva e nicole de Oliveira Cafalloni
 import React from "react";
 import { View, Text, TouchableOpacity, Alert, StyleSheet } from "react-native";
 import { DrawerContentScrollView, DrawerItemList } from "@react-navigation/drawer";

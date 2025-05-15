@@ -1,3 +1,4 @@
+//Jacquys Barbosa da SIlva e nicole de Oliveira Cafalloni
 import React, { useEffect, useState } from 'react';
 import { View, Text, Image, ScrollView, ActivityIndicator, StyleSheet } from 'react-native';
 import { supabase } from '../../supabaseConfig';
@@ -23,6 +24,7 @@ const Galeria = () => {
       const { data, error } = await supabase.storage
         .from("images")
         .list(`galeria/${userId}`, { limit: 100 });
+    console.log("Imagens encontradas:", data); 
 
       if (error) {
         console.error("Erro ao listar imagens:", error.message);
