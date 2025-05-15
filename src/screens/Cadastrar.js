@@ -1,3 +1,4 @@
+//Jacquys Barbosa da SIlva e nicole de Oliveira Cafalloni
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Alert, StyleSheet } from 'react-native';
 import { supabase } from '../../supabaseConfig';
